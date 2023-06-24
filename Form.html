@@ -1,0 +1,121 @@
+<!--this code is written by his majasty the emperor khaled dafi in 28/4/2023-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="FromCss.css">
+    <script src="Fun.js"></script>
+</head>
+
+<body>
+    <div class="form-wrapper">
+        <form id="registrationForm">
+            <div class="container">
+                <center>
+                    <h1>Student Registration Form</h1>
+                </center>
+                <hr>
+                <table>
+                                    <tr>
+                                        <td>
+                                            <label for="email">Email:</label>
+                                        </td>
+                                        <td>
+                                            <input type="text" id="email" name="email" placeholder="" required>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <label for="psw">Password:</label>
+                                        </td>
+                                        <td>
+                                            <input type="password" id="psw" name="psw" placeholder="" required>
+                                        </td>
+                                    </tr>
+
+                                                        <tr>
+                                                            <td>
+                                                                <label for="psw-repeat">Re-type Password:</label>
+                                                            </td>
+                                                            <td>
+                                                                <input type="password" id="psw-repeat" name="psw-repeat" placeholder="" required>
+                                                            </td>
+                                                        </tr>
+
+                    <tr>
+                        <td>
+                            <label>Gender:</label>
+                        </td>
+                        <td>
+                            <input type="radio" value="Male" name="gender" checked> Male
+                            <input type="radio" value="Female" name="gender"> Female
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="course">Course:</label>
+                        </td>
+                        <td>
+                            <select id="course" name="course">
+                                <option value="Course">Course</option>
+                                <option value="BCA">BCA</option>
+                                <option value="BBA">BBA</option>
+                                <option value="B.Tech">B.Tech</option>
+                                <option value="MBA">MBA</option>
+                                <option value="MCA">MCA</option>
+                                <option value="M.Tech">M.Tech</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td>
+                        <label for="course">City:</label>
+                    </td>
+                    <td>
+                        <select id="course" name="course">
+                            <option value="Course">JAZAN</option>
+                            <option value="BCA">JEDDAH</option>
+                            <option value="BBA">RIADH</option>
+
+                        </select>
+                    </td>
+                </tr>
+
+                    <tr>
+                        <td>
+                            <label for="course">District:</label>
+                        </td>
+                        <td>
+                            <select id="course" name="course">
+                                <option value="Course">ahad masrahah</option>
+                                <option value="BCA">abu arish</option>
+                                <option value="BBA">sabia</option>
+                    
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="phone">Phone:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="phone" name="phone" placeholder="" size="10" required />
+                        </td>
+                    </tr>
+                        <td colspan="2">
+                            <button type="submit" class="registerbtn">Register</button>
+                            <button type="button" class="registerbtn" onclick="resetForm()">Reset</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html
